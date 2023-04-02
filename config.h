@@ -8,22 +8,21 @@
 /* Appearance */
 static unsigned int borderpx  = 3;        /* border pixel of windows */
 static unsigned int snap      = 32;       /* snap pixel */
-static unsigned int gappih    = 32;       /* horiz inner gap between windows */
-static unsigned int gappiv    = 22;       /* vert inner gap between windows */
-static unsigned int gappoh    = 22;       /* horiz outer gap between windows and screen edge */
-static unsigned int gappov    = 42;       /* vert outer gap between windows and screen edge */
+static unsigned int gappih    = 20;       /* horiz inner gap between windows */
+static unsigned int gappiv    = 10;       /* vert inner gap between windows */
+static unsigned int gappoh    = 10;       /* horiz outer gap between windows and screen edge */
+static unsigned int gappov    = 30;       /* vert outer gap between windows and screen edge */
 static int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "JetBrainsMono Nerd Font:size=12", "cryptocoins:size=10;3", "waffle:size=10;3" };
-
 static char normbgcolor[]           = "#16161d";
 static char normbordercolor[]       = "#1c1c1c";
 static char normfgcolor[]           = "#87afaf";
 static char selfgcolor[]            = "#dfaf87";
-static char selbordercolor[]        = "#2a2a37";
-static char selbgcolor[]            = "#2a2a37";
+static char selbordercolor[]        = "#2d4f67";
+static char selbgcolor[]            = "#1f1f28"; //"#2a2a37";
 
 /* Other colors 
     sumiInk0 = "#16161D",
@@ -32,7 +31,7 @@ static char selbgcolor[]            = "#2a2a37";
     sumiInk3 = "#1F1F28",
     sumiInk4 = "#2A2A37",
     sumiInk5 = "#363646",
-    sumiInk6 = "#54546D", --fg
+    sumiInk6 = "#54546d", --fg
 
     -- Popup and Floats
     waveBlue1 = "#223249",
