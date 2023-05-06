@@ -17,11 +17,13 @@ static int smartgaps          = 0;        /* 1 means no outer gap when there is 
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "JetBrainsMono Nerd Font:size=12", "cryptocoins:size=10;3", "waffle:size=10;3" };
+
 static char normbgcolor[]           = "#16161d";
 static char normbordercolor[]       = "#1c1c1c";
 static char normfgcolor[]           = "#87afaf";
 static char selfgcolor[]            = "#dfaf87";
-static char selbordercolor[]        = "#2d4f67";
+/* static char selbordercolor[]        = "#2d4f67"; */
+static char selbordercolor[]        = "#DCA561";
 static char selbgcolor[]            = "#1f1f28"; //"#2a2a37";
 
 /* Other colors 
