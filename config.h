@@ -16,46 +16,22 @@ static int swallowfloating    = 0;        /* 1 means swallow floating windows by
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static char *fonts[]          = { "JetBrainsMono Nerd Font:size=12", "cryptocoins:size=10;3", "waffle:size=10;3" };
+/* static char *fonts[]          = { "JetBrainsMono Nerd Font:size=12", "cryptocoins:size=10;3", "waffle:size=10;3" }; */
+static char *fonts[]          = { "monospace:size=12", "waffle:size=10;3" };
 
-static char normbgcolor[]           = "#16161d";
-static char normbordercolor[]       = "#1c1c1c";
-static char normfgcolor[]           = "#87afaf";
-static char selfgcolor[]            = "#dfaf87";
-/* static char selbordercolor[]        = "#2d4f67"; */
-static char selbordercolor[]        = "#DCA561";
-static char selbgcolor[]            = "#1f1f28"; //"#2a2a37";
+static char normbgcolor[]           = "#000000";
+static char normbordercolor[]       = "#1e1e1e";
+static char normfgcolor[]           = "#88ca9f";
+static char selfgcolor[]            = "#dfaf7a";
+static char selbordercolor[]        = "#c0965b";
+static char selbgcolor[]            = "#111111"; 
 
-/* Other colors 
-    sumiInk0 = "#16161D",
-    sumiInk1 = "#181820",
-    sumiInk2 = "#1a1a22",
-    sumiInk3 = "#1F1F28",
-    sumiInk4 = "#2A2A37",
-    sumiInk5 = "#363646",
-    sumiInk6 = "#54546d", --fg
-
-    -- Popup and Floats
-    waveBlue1 = "#223249",
-    waveBlue2 = "#2D4F67",
-
-    -- Diff and Git
-    winterGreen = "#2B3328",
-    winterYellow = "#49443C",
-    winterRed = "#43242B",
-    winterBlue = "#252535",
-    autumnGreen = "#76946A",
-    autumnRed = "#C34043",
-    autumnYellow = "#DCA561",
-"#bbbbbb";
-"#444444";
-#001b35,
-"#252535"
-"#658594",
-"#6A9589",
-"#223249",
-"#2D4F67",
-*/
+/* static char normbgcolor[]           = "#16161d"; */
+/* static char normbordercolor[]       = "#1c1c1c"; */
+/* static char normfgcolor[]           = "#87afaf"; */
+/* static char selfgcolor[]            = "#dfaf87"; */
+/* static char selbordercolor[]        = "#dca561"; */
+/* static char selbgcolor[]            = "#1f1f28"; */ 
 
 static char *colors[][3] = {
        /*               fg           bg           border   */
