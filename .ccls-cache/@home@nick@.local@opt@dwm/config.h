@@ -66,6 +66,9 @@ static const Rule rules[] = {
 	{ TERMCLASS,      "bg",        NULL,       	    1 << 7,       0,           1,         0,        -1 },
 	{ TERMCLASS,      "spterm",    NULL,       	    SPTAG(0),     1,           1,         0,        -1 },
 	{ TERMCLASS,      "spcalc",    NULL,       	    SPTAG(1),     1,           1,         0,        -1 },
+    /* ... other rules ... */
+    { TERMCLASS, "neovim", NULL, 0, 0, 0 }, // Replace "Neovim" with the actual WM_CLASS of Neovim
+    { TERMCLASS, "nvim", NULL, 0, 0, 0 }, // Replace "Neovim" with the actual WM_CLASS of Neovim
 };
 
 /* layout(s) */
