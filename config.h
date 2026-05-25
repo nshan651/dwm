@@ -294,10 +294,10 @@ static Key keys[] = {
     // } }, { MODKEY,			XK_Right,	focusmon,	{.i = +1
     // } }, { MODKEY|ShiftMask,		XK_Right,	tagmon,		{.i = +1
     // } },
-    {MODKEY, XK_u, focusmon, {.i = +1}},
-    {MODKEY | ShiftMask, XK_u, tagmon, {.i = +1}},
-    {MODKEY, XK_i, focusmon, {.i = -1}},
-    {MODKEY | ShiftMask, XK_i, tagmon, {.i = -1}},
+    {MODKEY, XK_u, focusmon, {.i = -1}},
+    {MODKEY | ShiftMask, XK_u, tagmon, {.i = -1}},
+    {MODKEY, XK_i, focusmon, {.i = +1}},
+    {MODKEY | ShiftMask, XK_i, tagmon, {.i = +1}},
 
     /* { MODKEY,			XK_Page_Up,	shiftview,	{ .i =
        -1 } }, */
