@@ -1,14 +1,4 @@
-# Luke's build of dwm
-
-## FAQ
-
-> What are the bindings?
-
-This is suckless, mmmbud, the source code is the documentation! Check out [config.h](config.h).
-
-Okay, okay, actually I keep a readme in `larbs.mom` for my whole system, including the binds here.
-Press <kbd>super+F1</kbd> to view it in dwm (zathura is required for that binding).
-I haven't kept `man dwm`/`dwm.1` updated though. PRs welcome on that, lol.
+# DWM
 
 ## Patches and features
 
@@ -24,11 +14,10 @@ I haven't kept `man dwm`/`dwm.1` updated though. PRs welcome on that, lol.
 - [vanitygaps](https://dwm.suckless.org/patches/vanitygaps/): Gaps allowed across all layouts.
 - [swallow patch](https://dwm.suckless.org/patches/swallow/): if a program run from a terminal would make it inoperable, it temporarily takes its place to save space.
 
-
-## Installation for newbs
+## Installation
 
 ```bash
-git clone https://github.com/LukeSmithxyz/dwm.git
+git clone https://github.com/nshan651/dwm.git
 cd dwm
 sudo make install
 ```
